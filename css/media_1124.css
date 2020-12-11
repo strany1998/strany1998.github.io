@@ -10,12 +10,15 @@
 header .med11 .input-lg{
   width: 320px;
 }
+  
 }
 @media screen and (max-width: 1024px) {
   
   .navbar-default{
     display: block;
   }
+  header .text-center{
+    display: none;}
   header{
     padding: 0;
   }
