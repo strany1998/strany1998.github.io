@@ -1,0 +1,9 @@
+@media screen and (max-width: 1024px){
+	.main-content{
+		padding: 0px;
+
+	}
+	.breadcrumb li{
+  padding-top: 65px;
+}
+}

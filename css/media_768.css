@@ -20,6 +20,16 @@
 .non{
   display: none;
 }
+.conts{
+  padding: 5px 13px;
+}
+tbody{
+  font-size: 14px;
+}
+.form-group{
+  display: block;
+  text-align: left;
+}
 
 }
 @media (min-width: 768px){

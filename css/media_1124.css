@@ -12,9 +12,15 @@ header .med11 .input-lg{
 }
 }
 @media screen and (max-width: 1024px) {
-  
+ html  body{
+    background-color: #fffdd6;
+    background-image: none;
+  }
   .navbar-default{
     display: block;
+  }
+  header .hidden-xs{
+    display: none;
   }
   header{
     padding: 0;
@@ -114,6 +120,9 @@ header .med11 .input-lg{
       -ms-flex-order: 1;
           order: 1;
 }
+ .top2 .nav{
+    display: none;
+  }
   .jjjj .list-inline{
     display: none;
   }
@@ -172,4 +181,11 @@ footer{
 #w100 .owl-item{
   width: 100%;
 }
+.main_content{
+  padding: 0;
+}
+
+
+
+
 }
