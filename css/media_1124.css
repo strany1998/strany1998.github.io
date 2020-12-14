@@ -10,6 +10,7 @@
 header .med11 .input-lg{
   width: 320px;
 }
+  
 }
 @media screen and (max-width: 1024px) {
  html  body{
@@ -22,6 +23,11 @@ header .med11 .input-lg{
   header .hidden-xs{
     display: none;
   }
+
+  header .text-center{
+    display: none;
+  }
+
   header{
     padding: 0;
   }
@@ -181,11 +187,8 @@ footer{
 #w100 .owl-item{
   width: 100%;
 }
+
 .main_content{
   padding: 0;
 }
-
-
-
-
 }
