@@ -234,20 +234,23 @@ footer{
    
     font-size: 22px;
 }
+.d-block{
+    height: 500px;
+}
 @media screen and (max-width: 768px){
     .head2 {
         height: 100%;
 
     }
+    .d-block{
+        height: 300px;
+    }
     .lab{
-        width: 30%;
+        width: 35%;
     }
     .head3{
         display: none;
        
-    }
-    .head33{
-        display: none;
     }
     .contain:hover>.head33{
         position: relative;
