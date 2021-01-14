@@ -142,7 +142,7 @@ position: sticky;
 .full-close{
     display: block;
     position: absolute;
-    top: 20px;
+    top: 40px;
     right: 20px;
     width: 50px;
     height: 50px;
@@ -234,3 +234,50 @@ footer{
    
     font-size: 22px;
 }
+@media screen and (max-width: 768px){
+    .head2 {
+        height: 100%;
+
+    }
+    .lab{
+        width: 30%;
+    }
+    .head3{
+        display: none;
+       
+    }
+    .head33{
+        display: none;
+    }
+    .contain:hover>.head33{
+        position: relative;
+        display: block;
+        margin-top: 50px;
+        margin-left: -50px;
+        height: 100%;
+    }
+    .head1{
+
+    }
+}
+.contain {
+    background: none;
+    display: flex;
+    width: 30px;
+    height: 30px;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: auto;
+    cursor: pointer;
+    overflow: hidden;
+  }
+  .contain span {
+    height: 5px;
+    background: orange;
+    transition: transform 0.4s;
+    border-radius: 2px;
+  }
+  .contain:hover > span {
+    background: blue;
+  }
+ 
