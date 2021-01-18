@@ -30,6 +30,12 @@
     text-decoration: none;
     color: rgb(221, 33, 33);
 }
+.zak h3{
+
+    margin: 0;
+    margin-left: 10px;
+    font-size: 17px;
+}
 .pad{
     height: 100%;
     text-align: center;
@@ -46,7 +52,7 @@
     display: flex;
     width: 100%;
     height: 50px;
-    background-color: rgb(103, 175, 67);
+    background-color: rgb(116, 95, 251);
 }
 .stic{
 position: sticky;
@@ -64,15 +70,15 @@ position: sticky;
 }
 .carousel{
    margin: 0px 20px 0px 20px;
-   background-color: rgb(103, 175, 67);
+   background-color: rgb(202, 251, 177);
 }
 .bgcc{
-    background-color: rgb(105, 221, 47);
+    background-color: rgb(202, 251, 177);
     padding-top: 10px;
     padding-bottom: 15px;
 }
 .hell{
-    background-color: rgb(105, 221, 47);
+    background-color: rgb(202, 251, 177);
 }
 .hell h1{
     margin-left: 45px;
@@ -150,14 +156,14 @@ position: sticky;
 }
 .primery{
     padding-top: 50px;
-    background-color: rgb(105, 221, 47);
+    background-color:rgb(202, 251, 177);
 }
 .primery h2{
     margin-left: 67px;
 }
 .akci{
     border-top: 1px solid black;
-    background-color: rgb(105, 221, 47);
+    background-color: rgb(202, 251, 177);
     padding-bottom: 20px;
 }
 .akci h2{
@@ -174,7 +180,7 @@ position: sticky;
     border-top: 1px solid black;
     padding-top: 20px;
     padding-bottom: 20px;
-    background-color: rgb(105, 221, 47);
+    background-color: rgb(202, 251, 177);
 
 }
 .zakaz h2{
@@ -195,7 +201,7 @@ position: sticky;
 .uslov{
     border-top: 1px solid black;
     padding: 50px 0px 30px 20px;
-    background-color: rgb(105, 221, 47);
+    background-color: rgb(202, 251, 177);
     
 }
 .uslov h2{
@@ -234,6 +240,9 @@ footer{
    
     font-size: 22px;
 }
+.zak{
+    display: none;
+}
 .d-block{
     height: 500px;
 }
@@ -241,6 +250,16 @@ footer{
     .head2 {
         height: 100%;
 
+    }
+    .zak{
+        display: block;
+    }
+    .tel{
+        margin-right: 10px;
+        font-weight: 600;
+    }
+    .geo{
+        margin-left: 10px;
     }
     .d-block{
         height: 300px;
