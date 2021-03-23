@@ -1,0 +1,112 @@
+#rooow ul li{
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+    height: 390px;
+    margin-bottom: 30px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 1px 4px rgb(0 0 0 / 10%), -23px 0 20px -23px rgb(0 0 0), 23px 0 20px -23px rgb(0 0 0), 0 0 40px rgb(0 0 0 / 0%) inset;
+}
+#rooow ul li img{
+    width: 90%;
+    height: 70%;
+    border-radius: 3px;
+    margin-left: 13px;
+}
+#rooow ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+}
+#rooow ul li .product_btn{
+    height: 40px;
+    text-decoration: none;
+    border: none;
+    outline: none;
+}
+.product_btn_active{
+    background-color: #5bd699;
+    outline: none;
+    border: none;
+}
+button:focus{
+    outline: none;
+}
+#rooow ul li span{
+    font-weight: bold;
+    margin-bottom: 14px;
+}
+#korzina{
+    width: 60px;
+    height: 60px;
+    background-color: #75561c;
+    position: sticky;
+    top: 60px;
+    z-index: 9999;
+    margin-left: auto;
+    margin-right: 30px;
+    border-radius: 7px;
+}
+#korzina img{
+    width: 100%;
+    height: 100%;
+}
+#korza{
+    text-align: right;
+    margin-top: -12px;
+    margin-right: -7px;
+    color: red;
+    font-weight: bold;
+}
+#shopping .shooop{
+    z-index: 99999;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: auto;
+    padding: 30px;
+    width: 70%;
+    height: 97vh;
+    background-color: #fff;
+    box-shadow: 0 1px 4px rgb(0 0 0 / 10%), -23px 0 20px -23px rgb(0 0 0), 23px 0 20px -23px rgb(0 0 0), 0 0 40px rgb(0 0 0 / 0%) inset;
+    border-radius: 10px;
+}
+.shop__name{
+    padding: 15px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.shop__price{
+    padding: 15px;
+
+}
+.shop__close{
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    top: 20px;
+    right: 20px;
+    background-image: url(../../image/png/cancel.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    cursor: pointer;
+}
+.shop__br{
+    border-bottom: 1px solid silver;
+}
+.remov{
+    width: 20px;
+    height: 20px;
+    background-image: url(../../image/png/cancel.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    cursor: pointer;
+
+}

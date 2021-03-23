@@ -1,0 +1,24 @@
+.main-content{
+  min-height: 400px;
+
+  padding: 0px 25px;
+}
+.breadcrumb>li+li:before {
+    padding: 0 5px;
+    color: #ccc;
+    content: "/\00a0";
+}
+.main-content .conteiner{
+  padding: 0px 25px;
+  width: 100%;
+  min-height: 400px;
+  height: 100%;
+  display: block;
+    background-color: #fffdd6;
+}
+.breadcrumb li{
+  padding-top: 20px;
+}
+.conteiner .breadcrumb{
+  background-color: #fffdd6;
+}

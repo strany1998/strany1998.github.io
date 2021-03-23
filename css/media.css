@@ -1,0 +1,162 @@
+@media screen and (min-width: 1024px){
+  .top1 .navbar{
+    display: none;
+  }
+}
+@media screen and (max-width: 1124px){
+  .verh .list-inline .hedden-xs{
+  display: none;
+}
+header .med11 .input-lg{
+  width: 320px;
+}
+}
+@media screen and (max-width: 1024px) {
+  .top1 .text-center{
+    display: flex;
+  }
+  .navbar-default{
+    display: none;
+  }
+  header{
+    padding: 0;
+  }
+  .med11{
+    display: flex;
+    flex-direction: column;
+  }
+#logo img{
+  margin: 0;
+  max-width: none;
+}
+    
+.med11 .row{
+  order: 1;
+  margin-right: 0;
+  margin-left: 0;
+  margin: 0;
+}
+.navbar-default{
+  min-height: initial;
+  margin: 0;
+  background: none;
+  border: none;
+  border-color: rgba(255,255,255, 0.15);
+}
+.navbar-default button{
+  margin: 0px 0 0 0;
+  padding: 0px 15px;
+  height: 36px;
+  border-radius: 0;
+  border-bottom: none;
+  border-top: none;
+  min-width: 46px;
+}
+ .col-md-3{
+  width: 100%;
+}
+.navbar-toggle{
+  display: block;
+  float: left;
+  position: relative;
+  background-color: transparent;
+  border: 1px solid transparent;
+}
+.med11 .bigsearch{
+  order: 3;
+  padding: 15px 15px;
+}
+.med11 .mmm{
+  width: 100%;
+
+  margin-right: 50px;
+  order: 2;
+}
+.top1 .navbar-toggle:hover{
+  color: #2A6FBA;
+  background-color: #eee;
+  border-radius: 0;
+}
+.top1 .navbar-toggle:focus{
+  border-radius: 0;
+  outline: none;
+}
+.verh .list-inline .hedden-xs{
+  display: none;
+}
+.fa-heart:hover{
+  color: red;
+}
+.fa-user:hover{
+  color: red;
+}
+.top3{
+  display: flex;
+}
+.top2{
+  order: 2;
+}
+.jjjj{
+  order: 1;
+}
+  .jjjj .list-inline{
+    display: none;
+  }
+#top3_links{
+  display: flex;
+}
+#top3_links .list-inline li a{
+  color: #2A6FBA
+}
+#top3_links .list-inline li a:hover{
+  text-decoration: none;
+  color: red;
+}
+ #top3_links .row{
+  margin-right: 0;
+  margin-left: 0;
+  padding: 0px 10px;
+  background-color: #fffdd6;
+  font-size: 20px;
+}
+.top5{
+  display: none;
+}
+.slide1 {
+  padding: 0;
+}
+.plee{
+  padding: 0;
+}
+#opp{
+  padding: 0;
+}
+#otzz{
+  padding: 0;
+}
+footer{
+  padding: 0;
+}
+.footer .conteiner{
+  margin: 0;
+  padding: 0;
+}
+.footer .row{
+  grid-template-areas: 
+  "foo foo foo foo foo foo foo foo foo foo foo foo"
+  ". . . . . . soc . . . . ."
+  ". . . pow pow pow pow pow pow . . ."
+}
+.footer .row a{
+  font-size: 20px;
+}
+.review-list .text2{
+  overflow: inherit;
+}
+.non{
+  display: none;
+}
+#w100 .owl-item{
+  width: 100%;
+}
+}
